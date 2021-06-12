@@ -22,6 +22,25 @@
   text-align: center;
 }
 
+.card.text-white {
+  background-color: #343a40;
+  margin-bottom: 20px;
+}
+
+
+.hp-right {
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .hp-right {
+    width: 350px !important;
+  }
+  .container {
+    margin-top: 100px;
+  }
+}
+
 /* Generic Styles */
 html,body {
   height: 100%;
