@@ -1,3 +1,19 @@
+a {
+  -webkit-transition: .25s -webkit-filter linear;
+  -moz-transition: .25s -moz-filter linear;
+  -moz-transition: .25s filter linear;
+  -ms-transition: .25s -ms-filter linear;
+  -o-transition: .25s -o-filter linear;
+  transition: .25s filter linear, .25s -webkit-filter linear;
+}
+
+a:hover {
+ filter: brightness(85%) !important;
+ text-decoration: none;
+}
+
+
+
 body {
   background-color: #242424;
 }
